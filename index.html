@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <title>Fresh Mart</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+
+<header>
+    <h1>🍎 Fresh Mart</h1>
+    <button onclick="viewCart()">🛒 Cart (<span id="cart-count">0</span>)</button>
+</header>
+
+<section class="products">
+
+    <!-- Fruits -->
+    <h2>Fruits</h2>
+    <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <h3>Apple</h3>
+        <p>₹120/kg</p>
+        <button onclick="addToCart('Apple')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <h3>Banana</h3>
+        <p>₹40/dozen</p>
+        <button onclick="addToCart('Banana')">Add to Cart</button>
+    </div>
+
+    <!-- Vegetables -->
+    <h2>Vegetables</h2>
+    <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <h3>Tomato</h3>
+        <p>₹30/kg</p>
+        <button onclick="addToCart('Tomato')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <h3>Potato</h3>
+        <p>₹25/kg</p>
+        <button onclick="addToCart('Potato')">Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="ja.js"></script>
+</body>
+</html>
